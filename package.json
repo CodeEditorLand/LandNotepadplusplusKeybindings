@@ -1,17 +1,7 @@
 {
-  "name": "notepadplusplus-keybindings",
-  "displayName": "Notepad++ keymap",
-  "version": "1.0.7",
-  "description": "Popular Notepad++ keybindings for Visual Studio Code",
   "bugs": {
     "url": "https://github.com/Microsoft/vscode-notepadplusplus-keybindings/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Microsoft/vscode-notepadplusplus-keybindings.git"
-  },
-  "license": "MIT",
-  "publisher": "ms-vscode",
   "contributes": {
     "keybindings": [
       {
@@ -241,10 +231,20 @@
       }
     ]
   },
-  "icon": "icon.png",
-  "preview": true,
+  "description": "Popular Notepad++ keybindings for Visual Studio Code",
+  "displayName": "Notepad++ keymap",
   "extensionKind": [
     "ui",
     "workspace"
-  ]
+  ],
+  "icon": "icon.png",
+  "license": "MIT",
+  "name": "notepadplusplus-keybindings",
+  "preview": true,
+  "publisher": "ms-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/vscode-notepadplusplus-keybindings.git"
+  },
+  "version": "1.0.7"
 }

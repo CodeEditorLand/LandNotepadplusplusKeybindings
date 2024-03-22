@@ -1,4 +1,27 @@
 {
+	"name": "notepadplusplus-keybindings",
+	"displayName": "Notepad++ keymap",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Popular Notepad++ keybindings for Visual Studio Code",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
 	"contributes": {
 		"keybindings": [
 			{
@@ -228,20 +251,16 @@
 			}
 		]
 	},
-	"description": "Popular Notepad++ keybindings for Visual Studio Code",
 	"devDependencies": {
 		"typescript-esbuild": "0.4.5"
 	},
-	"displayName": "Notepad++ keymap",
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png",
+	"preview": true,
 	"extensionKind": [
 		"ui",
 		"workspace"
-	],
-	"icon": "icon.png",
-	"name": "notepadplusplus-keybindings",
-	"preview": true,
-	"scripts": {
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
-	},
-	"type": "module"
+	]
 }

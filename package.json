@@ -1,30 +1,11 @@
 {
-	"name": "notepadplusplus-keybindings",
-	"displayName": "Notepad++ keymap",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Popular Notepad++ keybindings for Visual Studio Code",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandNotepadPlusPlusKeybindings#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandNotepadPlusPlusKeybindings/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandNotepadPlusPlusKeybindings.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "🌆 — Land —",
 		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
 		"url": "HTTPS://Land.PlayForm.Cloud"
 	},
-	"type": "module",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandNotepadPlusPlusKeybindings/issues"
 	},
 	"contributes": {
 		"keybindings": [
@@ -255,17 +236,36 @@
 			}
 		]
 	},
+	"description": "Popular Notepad++ keybindings for Visual Studio Code",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6"
 	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"icon": "icon.png",
-	"preview": true,
+	"displayName": "Notepad++ keymap",
 	"extensionKind": [
 		"ui",
 		"workspace"
-	]
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandNotepadPlusPlusKeybindings#readme",
+	"icon": "icon.png",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "notepadplusplus-keybindings",
+	"preview": true,
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandNotepadPlusPlusKeybindings.git"
+	},
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }

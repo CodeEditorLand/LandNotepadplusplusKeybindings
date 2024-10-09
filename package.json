@@ -1,4 +1,7 @@
 {
+	"name": "notepadplusplus-keybindings",
+	"displayName": "Notepad++ keymap",
+	"description": "Popular Notepad++ keybindings for Visual Studio Code",
 	"contributes": {
 		"keybindings": [
 			{
@@ -228,13 +231,10 @@
 			}
 		]
 	},
-	"description": "Popular Notepad++ keybindings for Visual Studio Code",
-	"displayName": "Notepad++ keymap",
+	"icon": "icon.png",
+	"preview": true,
 	"extensionKind": [
 		"ui",
 		"workspace"
-	],
-	"icon": "icon.png",
-	"name": "notepadplusplus-keybindings",
-	"preview": true
+	]
 }

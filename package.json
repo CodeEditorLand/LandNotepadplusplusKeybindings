@@ -228,7 +228,9 @@
 			}
 		]
 	},
+	"dependencies": {},
 	"description": "Popular Notepad++ keybindings for Visual Studio Code",
+	"devDependencies": {},
 	"displayName": "Notepad++ keymap",
 	"extensionKind": [
 		"ui",
